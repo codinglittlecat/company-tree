@@ -161,6 +161,6 @@ php company_tree.php
 ## Elapsed Time
 
 ```sh
-# NOTE: This time is only measured to generate company tree. Input and output time is ignored.
+# NOTE: Input and output time is ignored.
 0.00012683868408203s
 ```
