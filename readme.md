@@ -9,14 +9,14 @@
 - Output of nested array should look like this:
 ```json
 [
-    'id' => 'uuid-16',
-    'name' => 'Webprovise Corp',
-    'cost' => 9696,
-    'children' => [
-        'id' => 'uuid-18',
-        'name' => 'Walter, Schmidt and Osinski',
-        'cost' => 6969,
-        'children' => []
+    "id" => "uuid-16",
+    "name" => "Webprovise Corp",
+    "cost" => 9696,
+    "children" => [
+        "id" => "uuid-18",
+        "name" => "Walter, Schmidt and Osinski",
+        "cost" => 6969,
+        "children" => []
     ]
 ];
 ```
