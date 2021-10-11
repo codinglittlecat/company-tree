@@ -7,16 +7,16 @@
 - Process data from the two provided APIs to have a nested array of companies with travel cost
 - The travel cost of a particular company is the total travel price of employees in that company and its child companies
 - Output of nested array should look like this:
-```json
+```php
 [
-    "id" => "uuid-16",
-    "name" => "Webprovise Corp",
-    "cost" => 9696,
-    "children" => [
-        "id" => "uuid-18",
-        "name" => "Walter, Schmidt and Osinski",
-        "cost" => 6969,
-        "children" => []
+    'id' => 'uuid-16',
+    'name' => 'Webprovise Corp',
+    'cost' => 9696,
+    'children' => [
+        'id' => 'uuid-18',
+        'name' => 'Walter, Schmidt and Osinski',
+        'cost' => 6969,
+        'children' => []
     ]
 ];
 ```
